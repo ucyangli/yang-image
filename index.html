@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/Scroll.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target="#nav">
+
+  <div id="collapse-cover"></div>
+
+  <div id="content-wrap">
+
+
+    <nav id="nav" class="navbar navbar-dark fixed-top navbar-expand container">
+      <div id="nav-brand-container" class="mx-auto mx-md-0">
+        <a id="nav-brand" class="navbar-brand ml-md-3" href="index.html">
+          Yang Film
+        </a>
+      </div>
+      <div class="navbar-nav ml-auto d-none d-md-flex">
+        <a class="nav-item nav-link" href="#home">Home</a>
+        <!-- <a class="nav-item nav-link" href="#about">About</a> -->
+        <a class="nav-item nav-link" href="#films">Films</a>
+        <a class="nav-item nav-link" href="#packages">Packages</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+
+
+    </nav><!-- nav-wrap -->
+
+
+    <div id="collapse-nav-toggler" class="d-block d-md-none float-right">
+      <span id="collapse-nav-toggler-icon"></span>
+    </div> <!-- collapse-nav-toggler -->
+
+    <div data-spy="scroll" data-target="#nav" data-offset="0">
+      <div id="home">
+        <div id="video-bg" class="mb-3">
+          <div class="vcontent">
+            <p>A R T I S T I C · E M O T I O N A L</p>
+            <h1>CANBERRA WEDDING</h1>
+            <h1>CINIMATOGRAPHY</h1>
+          </div>
+          <p id="vivid" class="d-none d-sm-block">V I V I D&nbsp;&nbsp;&nbsp;  S T O R Y T E L L I N G</p>
+          <video autoplay muted loop id="myVideo">
+            <source src="img/website1.mp4" type="video/mp4">
+          </video>
+        </div> <!-- video background -->
+
+
+        <div id="tittle-wrap" class="mb-3">
+          <div id="tittle-area">
+            <h4>Canberra
+              <br>
+              & Surrounds
+            </h4>
+          </div>
+
+          <div id="tittle-film" data-scroll-speed="5">
+            <h4>Wedding Filming</h4>
+          </div>
+        </div>
+        <!--tittle wrap -->
+
+        <div id="tittle-bg" style="position: relative;">
+          <div id="tittle-bg-l">
+            <h4>A story will </h4>
+          </div>
+          <div id="tittle-bg-r" data-scroll-speed="5">
+            <h4>last a lifetime</h4>
+          </div>
+        </div>
+      </div> <!-- Video Background wrap-->
+
+      <div id="about">
+
+      </div> <!-- About wrap-->
+
+      <div id="films" class="mb-5">
+        <div id="films_tittle">
+          <h2 class="mb-3">Wedding Fims</h2>
+        </div>
+        <div id="video-slider" class="carousel slide carousel-fade" data-ride="carousel">
+          <div id="video-player" class="d-inline-block" style="z-index: 999;">
+            <a href="#">
+              <svg viewBox="0 0 16 16" class="bi bi-play" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
+              </svg>
+            </a>
+
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#video-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#video-slider" data-slide-to="1"></li>
+            <li data-target="#video-slider" data-slide-to="2"></li>
+            <li data-target="#video-slider" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <picture>
+                <!--          alternative big pictures-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 577px)">-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 769px)">-->
+                <img src="./img/Jodie.png" class="d-block w-100" alt="Jodie's Wedding">
+              </picture>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Wedding reel</h5> -->
+                <p>Jodie & Kurt</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <!--          alternative big pictures-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 577px)">-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 769px)">-->
+                <img src="./img/Tiffany.png" class="d-block w-100" alt="Tiffany's Wedding">
+              </picture>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>It </h5> -->
+                <p>Tiffany & Kevin</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <!--          alternative big pictures-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 577px)">-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 769px)">-->
+                <img src="./img/Megan.png" class="d-block w-100" alt="Megan's Wedding">
+              </picture>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Third slide label</h5> -->
+                <p>Megan & Alex</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <!--          alternative big pictures-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 577px)">-->
+                <!--          <source srcset="./img/Tiffany.png" media="(min-width: 769px)">-->
+                <img src="./img/Laura.png" class="d-block w-100" alt="Laura's Wedding">
+              </picture>
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Forth slide label</h5> -->
+                <p>Laura & Morphy</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#video-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#video-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> <!-- video slider-->
+
+        <!-- <div id="article-wrap" class=" d-none d-md-block">
+          <article id="ML-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda autem cum dicta
+              dignissimos
+              eligendi eveniet excepturi fugit iure, molestiae nemo nesciunt nihil nisi quasi qui quibusdam quos
+              reprehenderit sit, sunt ut voluptatem, voluptates voluptatibus. Architecto beatae culpa earum incidunt
+              optio
+              placeat quisquam quo rerum sunt vel. Eaque maxime, nesciunt?</p>
+            <h2 data-scroll-speed="15">Megan <br> & <br> Alex</h2>
+          </article>
+
+          <article id="JL-article" class="my-5">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda autem cum dicta
+              dignissimos
+              eligendi eveniet excepturi fugit iure, molestiae nemo nesciunt nihil nisi quasi qui quibusdam quos
+              reprehenderit sit, sunt ut voluptatem, voluptates voluptatibus. Architecto beatae culpa earum incidunt
+              optio
+              placeat quisquam quo rerum sunt vel. Eaque maxime, nesciunt?</p>
+            <h2 data-scroll-speed="9">Jodie <br> & <br> Kurt</h2>
+          </article>
+
+          <article id="TK-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda autem cum dicta
+              dignissimos
+              eligendi eveniet excepturi fugit iure, molestiae nemo nesciunt nihil nisi quasi qui quibusdam quos
+              reprehenderit sit, sunt ut voluptatem, voluptates voluptatibus. Architecto beatae culpa earum incidunt
+              optio
+              placeat quisquam quo rerum sunt vel. Eaque maxime, nesciunt?</p>
+            <h2 data-scroll-speed="8">Tiffany <br> & <br> Kevin</h2>
+          </article>
+
+          <article id="LM-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda autem cum dicta
+              dignissimos
+              eligendi eveniet excepturi fugit iure, molestiae nemo nesciunt nihil nisi quasi qui quibusdam quos
+              reprehenderit sit, sunt ut voluptatem, voluptates voluptatibus. Architecto beatae culpa earum incidunt
+              optio
+              placeat quisquam quo rerum sunt vel. Eaque maxime, nesciunt?</p>
+            <h2 data-scroll-speed="7">Laura <br> & <br> Morphy</h2>
+          </article>
+        </div>md article wrap -->
+
+        <!-- <div id="mobile-article-wrap" class="d-block d-md-none">
+          <div id="mobile-article-tittle" class="mt-5"><h2>Wedding Films </h2><br> ____</div>
+          <article id="mobile-ML-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <div class="h-wrap">
+              <h2>Megan & Alex</h2>
+            </div>
+          </article>
+
+          <article id="mobile-JL-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <div class="h-wrap">
+              <h2>Jodie & Kurt</h2>
+            </div>
+          </article>
+
+          <article id="mobile-TK-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <div class="h-wrap">
+              <h2>Tiffany & Kevin</h2>
+            </div>
+          </article>
+
+          <article id="mobile-LM-article">
+            <div class="img-wrap"><img src="./img/Megan.png" alt="Megan Wedding Picture"></div>
+            <div class="h-wrap">
+              <h2>Laura & Morphy</h2>
+            </div>
+          </article>
+        </div>md article wrap -->
+      </div> <!-- Films Wrap-->
+
+      <div id="packages" class="mx-auto mb-5">
+        <div id="packages_tittle">
+          <h2 class="mb-3">WEDDING CINEMATIC VIDEO PACKAGE</h2>
+          <h6 class="mx-5">Every wedding is different – the people, the setting, the sound… All of the pieces of the day
+            are drawn
+            together by your love and we want to help you remember every last detail.</h6>
+        </div>
+
+        <div id="packages_pack" class="d-flex flex-wrap col-lg-9 col-12 mx-auto">
+          <div class="col-xl-4 col-12 pb-5 bg-secondary border">
+            <h3 class="text-center py-5">Package I&nbsp;&nbsp; $1299</h3>
+            <p style="width: 90%;" class="mx-auto">
+              - <span style="color:#f0a000">6 Hours</span> Film style Coverage
+              <br>
+              - 3-4 minute cinematic highlight film
+              <br>
+              - <span style="color:#f0a000">1 videographer</span> with multi cameras set up during ceremony and
+              reception
+
+            </p>
+          </div>
+          <div class="col-xl-4 col-12  pb-5 bg-secondary border">
+            <h3 class="text-center py-5">Package II&nbsp; $2199</h3>
+            <p style="width: 90%;" class="mx-auto">
+              - <span style="color:#faa04b">8 Hours</span> Film style Coverage
+              <br>
+              - 3-5 minute cinematic highlight film
+              <br>
+              - <span style="color:#f0a000">2 videographer</span> with multi cameras set up during ceremony and
+              reception
+              <br>
+              - <span style="color:#f0a000">Full length</span> coverage of ceremony, speeches, First Dance and
+              Father-Daughter Dance
+            </p>
+          </div>
+          <div class="col-xl-4 col-12  pb-5 bg-secondary border">
+            <h3 class="text-center py-5">Package III $2699</h3>
+            <p style="width: 90%;" class="mx-auto">
+              - <span style="color:#faa04b">10 Hours</span> Film style Coverage
+              <br>
+              - 4-6 minute cinematic highlight film
+              <br>
+              - <span style="color:#f0a000">2 videographer</span> with multi cameras set up during ceremony and
+              reception
+              <br>
+              - <span style="color:#f0a000">Full length</span> coverage of ceremony, speeches, First Dance and
+              Father-Daughter Dance
+              <br>
+              - A <span style="color:#f0a000">Free teaser video(15-30s)</span> for social media released within <span
+                style="color:#f0a000">3 working days</span> after the wedding
+            </p>
+          </div>
+
+          <div class="text-center mt-5" style="width: 100%;">
+            <h5>
+              • 35mm Full HD Camera, professional audio recorder and film equipment. <br>
+              • Edited Live Footage with live audio recording. <br>
+              • Full HD Wedding Trailer and Live footage on a USB. <br>
+              • Flexible hours up to 16 hours coverage<br>
+            </h5>
+
+          </div>
+
+        </div> <!-- packages-->
+
+        <div>
+
+        </div>
+
+
+
+
+      </div> <!-- Pacakges wrap-->
+
+      <div id="contact" class="mx-auto">
+        <div id='contact_tittle' class="text-center py-3 mb-5">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="d-flex flex-wrap">
+          <div class="col-12 col-md-6 d-flex flex-nowrap">
+            <div class="col-2">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>
+            </div>
+            <div class="col-10">
+              <p>
+                CALL US <br>
+                0451985268
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-nowrap">
+            <div class="col-2">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+            </div>
+            <div class="col-10">
+              <p>
+                Email <br>
+                liyuangming1992@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Contact wrap-->
+
+    </div>
+  </div> <!-- content wrap -->
+
+
+  <div id="collapse-nav-wrap">
+    <div id="collapse-nav-wrap-close">x</div>
+    <div id="collapse-nav-brand" class="mx-auto" style="text-align: center">
+      <a href="#">
+        Yang Film
+      </a>
+    </div>
+    <ul id="collapse-nav-items">
+      <li><a href="#home">Home</a></li>
+      <!-- <li><a href="#about">About</a></li> -->
+      <li><a href="#films">Films</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul> <!-- navbar-item -->
+    <!-- <ul id="collapse-nav-social">
+      <li class="instagram"><a href="https://www.instagram.com/yang_image/">
+          <svg width="1rem" height="1rem" viewBox="0 0 16 16" class="bi bi-alarm-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.5.5A.5.5 0 0 1 6 0h4a.5.5 0 0 1 0 1H9v1.07a7.002 7.002 0 0 1 3.537 12.26l.817.816a.5.5 0 0 1-.708.708l-.924-.925A6.967 6.967 0 0 1 8 16a6.967 6.967 0 0 1-3.722-1.07l-.924.924a.5.5 0 0 1-.708-.708l.817-.816A7.002 7.002 0 0 1 7 2.07V1H5.999a.5.5 0 0 1-.5-.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1zm-5 4a.5.5 0 0 0-1 0v3.882l-1.447 2.894a.5.5 0 1 0 .894.448l1.5-3A.5.5 0 0 0 8.5 9V5z" />
+          </svg>
+        </a>
+      </li>
+      <li class="weibo">
+        <a href="https://weibo.com/u/5447839543">
+          <svg width="1rem" height="1rem" viewBox="0 0 16 16" class="bi bi-alarm-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.5.5A.5.5 0 0 1 6 0h4a.5.5 0 0 1 0 1H9v1.07a7.002 7.002 0 0 1 3.537 12.26l.817.816a.5.5 0 0 1-.708.708l-.924-.925A6.967 6.967 0 0 1 8 16a6.967 6.967 0 0 1-3.722-1.07l-.924.924a.5.5 0 0 1-.708-.708l.817-.816A7.002 7.002 0 0 1 7 2.07V1H5.999a.5.5 0 0 1-.5-.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1zm-5 4a.5.5 0 0 0-1 0v3.882l-1.447 2.894a.5.5 0 1 0 .894.448l1.5-3A.5.5 0 0 0 8.5 9V5z" />
+          </svg>
+        </a>
+      </li>
+    </ul> -->
+  </div> <!-- collapse-nav-wrap -->
+
+
+  <div id="player-wrap">
+    <div id="player">
+      <iframe src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    <div id="player-wrap-close">
+      <svg viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z" />
+        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z" />
+      </svg>
+    </div>
+
+  </div> <!-- player-wrap -->
+
+  <footer>
+    <div id="footer_state" class="mx-auto py-3 row justify-content-between">
+      <p>
+       © 2020 Yang Film Wedding Videography
+      </p>
+      <!-- <div>
+        <a href="https://www.instagram.com/yang_image/"><img width="40px" height="40px" src="icon/icons8-instagram-208.png" alt=""></a>
+      </div> -->
+
+  
+    </div>
+
+  </footer>
+
+
+</body>
+
+
+
+</html>
