@@ -204,6 +204,7 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   margin-bottom: 15%;
 
   /* font */
