@@ -197,7 +197,6 @@ h3{
 
   /* Set a specific height */
   height: 99vh;
-  width: 100vw;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
