@@ -13,6 +13,7 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body{
@@ -202,8 +203,10 @@ h3{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   margin-bottom: 15%;
 
   /* font */
