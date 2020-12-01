@@ -531,6 +531,9 @@ h3{
 }
 
 /* package  */
+.package{
+  background-color: #979797;
+}
 #packages_tittle{
   text-align: center;
 }
